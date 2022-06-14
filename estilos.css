@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background: url(background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+}
+
+.menu{
+    background-color: rgba(255,255,235, 0.2) ;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border-bottom: solid 1px;
+    text-align: right;
+}
+
+ul li{
+    list-style: none;
+    width: auto;
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 45px;
+    text-decoration: none;
+    color: #75c2f9;  
+    margin-left: 15px;
+}
+
+ul li a:hover{
+    background: #d8af97;
+}
+
+div img {
+    width: 60%;
+    position: fixed;
+}
+
