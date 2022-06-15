@@ -71,6 +71,23 @@ div img {
     width: 80%;
 }
 
+@media screen and (max-width: 800px){
+
+    .menu{
+        width: 90%;
+        margin-right: 5px;
+    }
+
+    ul li a{
+        font-size: 30px;
+    }
+
+    .carta{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .menu{
         width: 90%;
@@ -91,19 +108,3 @@ div img {
     }
 }
 
-@media screen and (max-width: 800px){
-
-    .menu{
-        width: 90%;
-        margin-right: 5px;
-    }
-
-    ul li a{
-        font-size: 30px;
-    }
-
-    .carta{
-        width: 80%;
-        margin-left: 10%;
-    }
-}
