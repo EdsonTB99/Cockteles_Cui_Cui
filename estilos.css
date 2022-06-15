@@ -70,3 +70,40 @@ div img {
 .cartamojito, .cartapalomas, .cartacockteleria{
     width: 80%;
 }
+
+@media screen and (max-width: 500px) {
+    .menu{
+        width: 90%;
+        margin-right: 5px;
+    }
+
+    ul li a{
+        font-size: 20px;
+    }
+
+    .carta{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .cartamojito, .cartapalomas, .cartacockteleria{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .menu{
+        width: 90%;
+        margin-right: 5px;
+    }
+
+    ul li a{
+        font-size: 30px;
+    }
+
+    .carta{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
