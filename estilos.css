@@ -14,10 +14,11 @@
 
 .fondo2{
     background: url(fondo2.jpg);
-    background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    background-size: cover;
     background-position: center center;
+    
 }
 
 
