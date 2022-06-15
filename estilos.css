@@ -4,7 +4,7 @@
     
 }
 
-body{
+.fondo1{
     background: url(background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -12,8 +12,17 @@ body{
     background-position: center center;
 }
 
+.fondo2{
+    background: url(fondo2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+}
+
+
 .menu{
-    background-color: rgba(255,255,235, 0.2) ;
+    background-color: rgba(255,255,235, 0.4) ;
     width: 90%;
     margin-top: 1%;
     margin-left: 5%;
@@ -31,13 +40,14 @@ ul li a{
     display: block;
     font-family: 'Alfa Slab One', cursive;
     font-size: 45px;
-    text-decoration: none;
-    color: #75c2f9;  
+    text-decoration: none; 
     margin-left: 15px;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
 }
 
 ul li a:hover{
-    background: #d8af97;
+    color: #d8af97;
 }
 
 div img {
@@ -45,3 +55,18 @@ div img {
     position: fixed;
 }
 
+.carta{
+    width: 60%;
+    background: rgba(255, 255, 255, 0.8);
+    margin-left: 20%;
+    margin-top: 1%;
+    
+}
+
+.mojitos, .palomas, .cockteleria{
+    text-align: center;
+}
+
+.cartamojito, .cartapalomas, .cartacockteleria{
+    width: 80%;
+}
